@@ -1,13 +1,62 @@
-var total,income,expenses,in[20],ex[20];
+ var income=0,expenses=0,total=0,v1,v2;
 
-	if(document.querySelector('#add').value =='+')
-	{
-		document.querySelector('#val').addEventListener("keydown", function (e) {
-    if (e.keyCode === 13) 
-    		{  //checks whether the pressed key is "Enter"
-        		in.push()
-				document.querySelector('.in').textContent = document.querySelector("#des").value;
+function budget()
+		{	
+			
+			if(document.getElementById("sel").value=='+')
+			{
+			
+			
+				var newp=document.createElement('p');
+				newp.textContent=document.querySelector('#des').value;
+				document.getElementById("des1").appendChild(newp);
+				
+
 			}
-		});
-	}
+			else
+			{
+
+			
+			
+				var newp=document.createElement('p');
+				newp.textContent=document.querySelector('#des').value;
+				document.getElementById("des2").appendChild(newp);
+				
+			}
+			if(document.getElementById("sel").value=='+')
+			{
+			
+			
+				var newp=document.createElement('p');
+				newp.textContent=document.querySelector('#val').value;
+				document.getElementById("val1").appendChild(newp);
+				income+=parseInt(document.getElementById("val").value);
+				document.getElementById("ti").innerHTML=income;
+				
+
+				
+
+			}
+			else
+			{
+
+			
+			
+				var newp=document.createElement('p');
+				newp.textContent=document.querySelector('#val').value;
+				document.getElementById("val2").appendChild(newp);
+				expenses+=parseInt(document.getElementById("val").value);
+				document.getElementById("te").innerHTML=expenses;
+				
+			}
+			total=income-expenses;
+			document.getElementById("total").innerHTML=total;
+
+			
+			
+
+			
+		}
+
+	
 
