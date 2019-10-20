@@ -3,7 +3,7 @@
 	margin: 5px;
 }
 #val1{
-	float:right;
+	float:left;
 	margin: 5px;
 }
 #des2{
@@ -11,6 +11,27 @@
 	margin: 5px;
 }
 #val2{
-	float:right;
+	float:left;
 	margin: 5px;
+}
+#cross1{
+	float: right;
+}
+#cross2{
+	float: right;
+}
+#des{
+	margin-right: 4px;
+}
+#income{
+	background-color: #D3D3D3;
+}
+#expenses{
+	background-color: #808080;
+}
+#first{
+	background-color: #d43717;
+}
+#second{
+	background-color: #152299;
 }

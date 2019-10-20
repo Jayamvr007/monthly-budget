@@ -19,13 +19,13 @@
 			<h2 id='total'></h2>
 			<h1></h1>
 				<div class='row'>
-					<div id ='first' class='col-sm-6 bg-success'>
-						<p>INCOME</p>
+					<div id ='first' class='col-sm-6 '>
+						<p><b>INCOME</b></p>
 						<p id ="ti"></p>
 					
 				</div>
-				<div id='second' class='col-sm-6 bg-primary'>
-					<p>EXPENSES</p>
+				<div id='second' class='col-sm-6 '>
+					<p><b>EXPENSES</b></p>
 					<p id ="te"></p>
 
 					<p id='p2' class='p'></p>
@@ -33,22 +33,26 @@
 			</div>
 		</div>
 	</div>			
-<div id='body2' class='container' style= "height:80px; width:100% ;margin: 5px; text-align: center ;">
+<div id='body2' class='container' style= "height:140px; width:100% ;margin: 5px; text-align: center ;">
 	<div class='row'>
-	<form>
+	<form >
 		<select id="sel">
 			<option value="+"  class="col-sm-3 ">+</option>
 			<option value="-"  class="col-sm-3 ">-</option>
 		</select>	
 		<input type="text" value="add description"id='des' class='col-sm-3' >
-		<input type="text" value="value" id='val' class='col-sm-3'>
-		<button type="button" id="sub"  onclick="budget()" class='col-sm-3'>submit</button>
+
+		value
+		<input type="number" id='val' class='col-sm-3'  >
+			
+		<button type="button" id="sub"  onclick="budget();"  class='col-sm-3'>submit</button>
+		
 	</form>
 </div>
 </div>
 <div id ='body3' class='container' style= "height:200px; width:100% ;margin: 5px; text-align: center ;">
 	<div class='row'>
-		<div id='income' class='col-sm-6 bg-success'>
+		<div id='income' class='col-sm-6 '>
 			<h3 id ='i'>INCOME</h3>
 			<div id="des1">
 				
@@ -56,16 +60,22 @@
 			<div  id='val1'>
 				
 			</div>
+			<div  id='cross1'>
+				
+			</div>
 
 
 			
 		</div>
-		<div id='expenses' class='col-sm-6 bg-primary'>
+		<div id='expenses' class='col-sm-6 '>
 			<h3 id='e'>EXPENSES</h3>
-			<div float="left" id="des2">
+			<div  id="des2">
 				
 			</div>
-			<div float="right" id='val2'>
+			<div  id='val2'>
+				
+			</div>
+			<div id='cross2'>
 				
 			</div>
 
