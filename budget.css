@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+#b1{
+	width:1500px;
+}
+#body1{
+	text-align: center;
+	width:100%;
+	height:150px;
+	
+}
+#first {
+	
+	background-color: #ff3333;
+	display:inline-block; 
+	
+}
+#second {
+	
+	background-color: #3333ff; 
+	display:inline-block;  
+	
+}
+
+#body2{
+	text-align:center;
+	background-color: rgb(169,169,169);
+}
+#body3{
+	background-color: rgb(169,169,169);
+}
+#income{
+	float: left;
+	height: 200px;
+	width: 50%;
+	padding:10px 10px;
+	
+	background-color: rgb(169,169,169)
+}
+#expenses{
+	float: left;
+	height: 200px;
+	width: 50%;
+	padding:10px 10px;
+	
+	background-color: rgb(169,25,169)
+}
+
+
+	
+	

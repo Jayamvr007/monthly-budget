@@ -10,12 +10,12 @@
 
 </head>
 	
-<body  background='budget1.jpg' >
+<body  background='budget1.jpg' onload="reset()" >
 	<div id='b1' class='container' >
 		<div class='row' >
 			<div id='body1' style= "height:200px; width:100% ;margin: 5px; text-align: center ;">
 
-			<h3 >available budget in september 2016:</h3>
+			<h3 >Available Budget In September 2019 :</h3>
 			<h2 id='total'></h2>
 			<h1></h1>
 				<div class='row'>
@@ -32,22 +32,23 @@
 				</div>
 			</div>
 		</div>
-	</div>			
+	</div>	
+	<form id='expenseForm'>		
 <div id='body2' class='container' style= "height:140px; width:100% ;margin: 5px; text-align: center ;">
 	<div class='row'>
-	<form >
+	
 		<select id="sel">
 			<option value="+"  class="col-sm-3 ">+</option>
 			<option value="-"  class="col-sm-3 ">-</option>
 		</select>	
-		<input type="text" value="add description"id='des' class='col-sm-3' >
+		<input type="text" placeholder="add description" value=""id='des' class='col-sm-3' >
 
 		value
 		<input type="number" id='val' class='col-sm-3'  >
 			
 		<button type="button" id="sub"  onclick="budget();"  class='col-sm-3'>submit</button>
 		
-	</form>
+
 </div>
 </div>
 <div id ='body3' class='container' style= "height:200px; width:100% ;margin: 5px; text-align: center ;">
@@ -63,6 +64,7 @@
 			<div  id='cross1'>
 				
 			</div>
+		
 
 
 			
@@ -78,11 +80,13 @@
 			<div id='cross2'>
 				
 			</div>
+		
 
 
 		</div>		
 	</div>	
 </div>
+</form>
 
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js" ></script>
